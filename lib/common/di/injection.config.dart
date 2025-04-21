@@ -12,6 +12,8 @@
 import 'package:alhuruf/common/di/app_module.dart' as _i533;
 import 'package:alhuruf/common/di/network_module.dart' as _i839;
 import 'package:alhuruf/presentation/app/management/app_manager.dart' as _i21;
+import 'package:alhuruf/presentation/splash/management/splash_manager.dart'
+    as _i117;
 import 'package:alice/alice.dart' as _i917;
 import 'package:dio/dio.dart' as _i361;
 import 'package:get_it/get_it.dart' as _i174;
@@ -30,6 +32,7 @@ extension GetItInjectableX on _i174.GetIt {
     final appModule = _$AppModule();
     gh.factory<_i361.BaseOptions>(() => networkModule.baseOptions());
     gh.factory<_i21.AppManager>(() => _i21.AppManager());
+    gh.factory<_i117.SplashManager>(() => _i117.SplashManager());
     gh.lazySingleton<_i974.Logger>(() => appModule.logger);
     gh.lazySingleton<_i917.Alice>(() => appModule.alice);
     gh.lazySingleton<_i579.RxSharedPreferences>(() => appModule.preferences);

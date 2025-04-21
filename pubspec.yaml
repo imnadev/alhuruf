@@ -53,9 +53,6 @@ flutter:
 
 flutter_gen:
   output: lib/common/gen
-  assets:
-    outputs:
-      package_parameter_enabled: true
   integrations:
     flutter_svg: true
     lottie: true

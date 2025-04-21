@@ -11,8 +11,7 @@ class $AssetsLocalizationGen {
   const $AssetsLocalizationGen();
 
   /// File path: assets/localization/translations.csv
-  String get translations =>
-      'packages/alhuruf/assets/localization/translations.csv';
+  String get translations => 'assets/localization/translations.csv';
 
   /// List of all assets
   List<String> get values => [translations];
@@ -20,8 +19,6 @@ class $AssetsLocalizationGen {
 
 class Assets {
   const Assets._();
-
-  static const String package = 'alhuruf';
 
   static const $AssetsLocalizationGen localization = $AssetsLocalizationGen();
 }
