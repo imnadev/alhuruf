@@ -1,4 +1,6 @@
+import 'package:alhuruf/common/di/injection.dart';
 import 'package:alhuruf/common/gen/assets.gen.dart';
+import 'package:alhuruf/common/router/app_router.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:management/management.dart';
@@ -15,17 +17,23 @@ class App extends Managed<AppManager, AppState, AppEffect> {
 
   @override
   Widget builder(context, manager, state) {
+    final router = getIt<StackRouter>() as AppRouter;
     return EasyLocalization(
       supportedLocales: Strings.supportedLocales,
       assetLoader: CsvAssetLoader(),
       path: Assets.localization.translations,
       fallbackLocale: Strings.supportedLocales.first,
       startLocale: Strings.supportedLocales.first,
-      child: MaterialApp.router(
-        debugShowCheckedModeBanner: false,
-        localizationsDelegates: context.localizationDelegates,
-        supportedLocales: context.supportedLocales,
-        locale: context.locale,
+      child: Builder(
+        builder: (context) {
+          return MaterialApp.router(
+            routerConfig: router.config(),
+            debugShowCheckedModeBanner: false,
+            localizationsDelegates: context.localizationDelegates,
+            supportedLocales: context.supportedLocales,
+            locale: context.locale,
+          );
+        }
       ),
     );
   }
