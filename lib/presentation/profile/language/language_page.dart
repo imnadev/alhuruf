@@ -2,12 +2,12 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:management/management.dart';
 
-import 'management/splash_management.dart';
-import 'management/splash_manager.dart';
+import 'management/language_management.dart';
+import 'management/language_manager.dart';
 
 @RoutePage()
-class SplashPage extends Managed<SplashManager, SplashState, SplashEffect> {
-  const SplashPage({super.key});
+class LanguagePage extends Managed<LanguageManager, LanguageState, LanguageEffect> {
+  const LanguagePage({super.key});
   
   @override
   void init(context, manager) {}

@@ -4,7 +4,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'app_management.dart';
+part of 'splash_management.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -13,7 +13,7 @@ part of 'app_management.dart';
 // dart format off
 T _$identity<T>(T value) => value;
 /// @nodoc
-mixin _$AppState {
+mixin _$SplashState {
 
 
 
@@ -21,7 +21,7 @@ mixin _$AppState {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is AppState);
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is SplashState);
 }
 
 
@@ -30,23 +30,23 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'AppState()';
+  return 'SplashState()';
 }
 
 
 }
 
 /// @nodoc
-class $AppStateCopyWith<$Res>  {
-$AppStateCopyWith(AppState _, $Res Function(AppState) __);
+class $SplashStateCopyWith<$Res>  {
+$SplashStateCopyWith(SplashState _, $Res Function(SplashState) __);
 }
 
 
 /// @nodoc
 
 
-class _AppState implements AppState {
-  const _AppState();
+class _SplashState implements SplashState {
+  const _SplashState();
   
 
 
@@ -56,7 +56,7 @@ class _AppState implements AppState {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _AppState);
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _SplashState);
 }
 
 
@@ -65,7 +65,7 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'AppState()';
+  return 'SplashState()';
 }
 
 
@@ -75,7 +75,7 @@ String toString() {
 
 
 /// @nodoc
-mixin _$AppEffect {
+mixin _$SplashEffect {
 
 
 
@@ -83,7 +83,7 @@ mixin _$AppEffect {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is AppEffect);
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is SplashEffect);
 }
 
 
@@ -92,23 +92,23 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'AppEffect()';
+  return 'SplashEffect()';
 }
 
 
 }
 
 /// @nodoc
-class $AppEffectCopyWith<$Res>  {
-$AppEffectCopyWith(AppEffect _, $Res Function(AppEffect) __);
+class $SplashEffectCopyWith<$Res>  {
+$SplashEffectCopyWith(SplashEffect _, $Res Function(SplashEffect) __);
 }
 
 
 /// @nodoc
 
 
-class _AppEffect implements AppEffect {
-  const _AppEffect();
+class _Home implements SplashEffect {
+  const _Home();
   
 
 
@@ -118,7 +118,7 @@ class _AppEffect implements AppEffect {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _AppEffect);
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Home);
 }
 
 
@@ -127,7 +127,39 @@ int get hashCode => runtimeType.hashCode;
 
 @override
 String toString() {
-  return 'AppEffect()';
+  return 'SplashEffect.home()';
+}
+
+
+}
+
+
+
+
+/// @nodoc
+
+
+class _Login implements SplashEffect {
+  const _Login();
+  
+
+
+
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Login);
+}
+
+
+@override
+int get hashCode => runtimeType.hashCode;
+
+@override
+String toString() {
+  return 'SplashEffect.login()';
 }
 
 

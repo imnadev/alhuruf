@@ -1,1 +1,61 @@
 str,en_US,uz_UZ,ru_RU
+errorOccured,"Something went wrong, please try again later :(","Nimadir xato ketdi, keyinroq qayta urinib ko‘ring :(","Что-то пошло не так, попробуйте позже :("
+retry,To retry,Qayta urinish uchun,Чтобы повторить попытку
+skip,Skip,O’tkazib yuborish,Пропускать
+logInContinue,Log in to continue!,Profilga kirib davom ettiring!,"Продолжайте, войдя в свой профиль!"
+logInToImprove,You must log in to improve your Tajweed knowledge and view lessons.,Tajweed bilimlarini oshirish va darslarni ko’rish uchun profilga kirishingiz kerak.,"Вам необходимо войти в свой профиль, чтобы улучшить свои знания таджвида и просмотреть уроки."
+gainKnowledgeLoggingIn,You will have the opportunity to gain a lot of knowledge by logging in!,Siz profilga kirish orqali juda ko’p bilimlarini olish imkoniga ega bo’lasiz!,"У вас будет возможность получить много знаний, войдя в их профиль!"
+logInProfile,Log in to profile,Profilga kirish,Войти в профиль
+later,Later,Keyinroq,Позже
+logInGoogle,Log in with Google,Google bilan kirish,Войти через Google
+logApple,Log in with Apple,Apple bilan kirish,Войти через Apple
+privacyPolicy,"By logging in, you agree to our privacy policy. Log in to your account and use secure services!",Kirish orqali siz bizning maxfiylik siyosatimizga rozilik bildirasiz. Hisobingizga kiring va xavfsiz xizmatlardan foydalaning!,"Входя в систему, вы соглашаетесь с нашей политикой конфиденциальности. Войдите в свою учетную запись и пользуйтесь безопасными сервисами!"
+paidUntil,Paid until {date},{date} gacha toʻlang,Оплачено до {дата}
+essons,{lesson} lessons,{lesson} ta dars,{lesson} уроки
+seeAll,See all,Hammasini ko’rish,Посмотреть все
+words,Words,So’zlar,Слова
+verse,{verse} verse,{verse} oyat,{verse} стих
+tajvidRules,Tajvid rules,Tajvid qoidalari,Правила таджвида
+rules,{rule} rules,{rule} ta qoida,{rule} правила
+profile,Profile,Profil,Профиль
+settings,Settings,Sozlamalar,Настройки
+subscription,Subscribtion,Obuna,Подписка
+donate,Donate us,Bizga donat qiling,Пожертвуйте нам
+logOut,Log out,Chiqish,Выйти
+version,Version {version},Versiya {version},Версия {version}
+wantLeave,Do you want to leave?,Tark etmoqchimisiz?,Ты хочешь уйти?
+leaveLose,"If you leave the app, you will lose your lessons!","Agar ilovadan tark etsangiz, darsalardan mahrum bo’lasiz!","Если вы выйдете из приложения, вы потеряете уроки!"
+exit,Exit,Chiqish,Выход
+cancellation,Cancellation,Bekor qilish,Отмена
+changeLanguage,Change language,Tilni o'zgartirish,Изменить язык
+info,Info,Ma'lumot,Информация
+deleteAccount,Delete account,Hisobni o'chirish,Удалить аккаунт
+wantDeleteAccount,Do you want to delete your account?,Akkountingizni o’chirmoqchimisiz?,Вы хотите удалить свой аккаунт?
+wantDeleteRestore,"If you want to delete your account, you will not be able to restore it, and your subscription will also be canceled.","Agar accountingizni o’chirmoqchi bo’lsangiz, uni qaytara olmaysiz, subscribtion ham bekor qilinadi.","Если вы удалите свою учетную запись, вы не сможете ее восстановить, и ваша подписка также будет отменена."
+delete,Delete,O’chirish,Выключать
+contributionImportantUs,"Even a small contribution is very important to us, contribute to sharing knowledge!","Kichik yordam ham biz uchun juda muhim, ilm ulashish uchun o’z hissangizni qo’shing!","Даже небольшая помощь очень важна для нас, внесите свой вклад в обмен знаниями!"
+payment,Payment,To'lov,Оплата
+recommended,Recommended,Tavsiya etilgan,Рекомендовано
+yearly,Yearly,Yillik,Ежегодно
+payEveryMonth,"Pay every month, not all at once!","Hammasini emas, har oy to’lang!","Платите каждый месяц, а не всю сумму сразу!"
+purchase,Purchase,Sotib olish,Покупка
+monthly,Monthly,Oylik,Ежемесячно
+subscription,Subscription,Obuna,Подписка
+freeTrailEndDate,Your free trail end at {date},Bepul davringiz {date} da tugaydi,Ваш бесплатный период заканчивается {date}
+avtomaticallyBilled,After that you avtomatically billed ${price},Shundan so'ng siz avtomatik ravishda ${price} hisobini oldingiz.,После этого вы автоматически списываете ${price}
+nextPayment,Next payment,Keyingi to'lov,Следующий платеж
+paymentMehtod,Payment mehtod,To'lov usuli,Способ оплаты
+totalPrice,Total price,Umumiy narx,Общая стоимость
+manageplan,Manage plan,Rejani boshqarish,Управление планом
+cancelSubscription,Do you want to cancel your subscription?,Obunangizni bekor qilmoqchismisiz?,Вы хотите отменить подписку?
+happySeeYou,"We were happy to see you in our app, we are very sorry.","Biz sizni ilovamizda ko’rishdan baxtiyor edik, juda ham afsusdamiz.","Мы были рады видеть вас в нашем приложении, но нам очень жаль."
+yes,Yes,Ha,Да
+no,No,Yo’q,Нет
+share,"If you liked the app, share it with your loved ones",Agar ilova yoqqan bo’lsa yaqinlaringizga ham ulashing,"Если вам понравилось приложение, поделитесь им со своими близкими."
+shareApp,Share the app,Ilovani ulashish,Поделитесь приложением
+wantLeaveLesson,Do you want to leave the lesson?,Darsni tark etmoqchimisiz?,Вы хотите покинуть урок?
+ifLeaveLose,"If you leave the app, you will lose the lessons!","Agar ilovadan tark etsangiz, darsalardan mahrum bo’lasiz!","Если вы выйдете из приложения, вы потеряете все уроки!"
+back,Back,Orqaga,Назад
+continueKey,Continue,Davom etish,Продолжать
+correctAnswer,Correct answer!,To’g’ri javob!,Правильный ответ!
+wrongAnswer,Wrong answer!,Noto’g’ti javob!,Неправильный ответ!
