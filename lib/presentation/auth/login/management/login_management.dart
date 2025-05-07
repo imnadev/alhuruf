@@ -8,6 +8,6 @@ class LoginState with _$LoginState {
 }
 
 @freezed
-class LoginEffect with _$LoginEffect {
-  const factory LoginEffect.home() = _Home;
+sealed class LoginEffect with _$LoginEffect {
+  const factory LoginEffect.home() = Home;
 }

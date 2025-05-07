@@ -4,7 +4,7 @@ import 'package:alhuruf/common/gen/assets.gen.dart';
 import 'package:alhuruf/common/gen/strings.dart';
 import 'package:alhuruf/common/router/app_router.gr.dart';
 import 'package:alhuruf/common/widgets/base_app_bar.dart';
-import 'package:alhuruf/common/widgets/common_button.dart';
+import 'package:alhuruf/common/widgets/button.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:management/management.dart';
@@ -20,7 +20,13 @@ class ProfilePage extends Managed<ProfileManager, ProfileState, ProfileEffect> {
   void init(context, manager) {}
 
   @override
-  void listener(context, manager, effect) {}
+  void listener(context, manager, effect) {
+    switch (effect) {
+      case Auth():
+        context.router.replaceAll([AuthRoute()]);
+        break;
+    }
+  }
 
   @override
   Widget builder(context, manager, state) {
@@ -90,7 +96,7 @@ class ProfilePage extends Managed<ProfileManager, ProfileState, ProfileEffect> {
                 ),
                 Divider(),
                 InkWell(
-                  onTap: () => _logout(context),
+                  onTap: () => _logout(context, manager),
                   child: _profileView(
                     context: context,
                     leading: Assets.icons.logout.svg(),
@@ -135,7 +141,7 @@ class ProfilePage extends Managed<ProfileManager, ProfileState, ProfileEffect> {
     );
   }
 
-  Future<void> _logout(BuildContext context) {
+  Future<void> _logout(BuildContext context, ProfileManager manager) {
     return showDialog(
       context: context,
       builder:
@@ -165,18 +171,21 @@ class ProfilePage extends Managed<ProfileManager, ProfileState, ProfileEffect> {
                   Row(
                     children: [
                       Expanded(
-                        child: CommonButton.elevated(
+                        child: Button.elevated(
                           backgroundColor: context.colors.window,
                           textColor: context.colors.headline,
                           text: Strings.exit,
-                          onPressed: () {
-                            Navigator.of(context).pop();
+                          onPressed: () async {
+                            await manager.logout();
+                            if (context.mounted) {
+                              Navigator.of(context).pop();
+                            }
                           },
                         ),
                       ),
                       SizedBox(width: 8),
                       Expanded(
-                        child: CommonButton.elevated(
+                        child: Button.elevated(
                           text: Strings.cancellation,
                           onPressed: () {
                             Navigator.of(context).pop();

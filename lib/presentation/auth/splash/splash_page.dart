@@ -18,10 +18,11 @@ class SplashPage extends Managed<SplashManager, SplashState, SplashEffect> {
   @override
   void listener(context, manager, effect) {
     switch (effect) {
-      case const SplashEffect.home():
+      case Home():
+        context.router.replace(HomeRoute());
         break;
-      case const SplashEffect.login():
-        context.router.replaceAll([const LoginRoute()]);
+      case Login():
+        context.router.replace(AuthRoute());
         break;
     }
   }

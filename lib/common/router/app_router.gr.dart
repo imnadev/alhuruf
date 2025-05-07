@@ -10,12 +10,12 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:alhuruf/presentation/app/app.dart' as _i1;
-import 'package:alhuruf/presentation/auth/login/login_page.dart' as _i5;
+import 'package:alhuruf/presentation/auth/auth/auth_page.dart' as _i2;
 import 'package:alhuruf/presentation/auth/splash/splash_page.dart' as _i9;
-import 'package:alhuruf/presentation/home/home/home_page.dart' as _i2;
-import 'package:alhuruf/presentation/home/lessons/lessons_page.dart' as _i4;
+import 'package:alhuruf/presentation/home/home/home_page.dart' as _i3;
+import 'package:alhuruf/presentation/home/lessons/lessons_page.dart' as _i5;
 import 'package:alhuruf/presentation/profile/language/language_page.dart'
-    as _i3;
+    as _i4;
 import 'package:alhuruf/presentation/profile/payment/payment_page.dart' as _i6;
 import 'package:alhuruf/presentation/profile/profile/profile_page.dart' as _i7;
 import 'package:alhuruf/presentation/profile/settings/settings_page.dart'
@@ -39,7 +39,23 @@ class App extends _i10.PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [_i2.HomePage]
+/// [_i2.AuthPage]
+class AuthRoute extends _i10.PageRouteInfo<void> {
+  const AuthRoute({List<_i10.PageRouteInfo>? children})
+    : super(AuthRoute.name, initialChildren: children);
+
+  static const String name = 'AuthRoute';
+
+  static _i10.PageInfo page = _i10.PageInfo(
+    name,
+    builder: (data) {
+      return const _i2.AuthPage();
+    },
+  );
+}
+
+/// generated route for
+/// [_i3.HomePage]
 class HomeRoute extends _i10.PageRouteInfo<void> {
   const HomeRoute({List<_i10.PageRouteInfo>? children})
     : super(HomeRoute.name, initialChildren: children);
@@ -49,13 +65,13 @@ class HomeRoute extends _i10.PageRouteInfo<void> {
   static _i10.PageInfo page = _i10.PageInfo(
     name,
     builder: (data) {
-      return const _i2.HomePage();
+      return const _i3.HomePage();
     },
   );
 }
 
 /// generated route for
-/// [_i3.LanguagePage]
+/// [_i4.LanguagePage]
 class LanguageRoute extends _i10.PageRouteInfo<void> {
   const LanguageRoute({List<_i10.PageRouteInfo>? children})
     : super(LanguageRoute.name, initialChildren: children);
@@ -65,13 +81,13 @@ class LanguageRoute extends _i10.PageRouteInfo<void> {
   static _i10.PageInfo page = _i10.PageInfo(
     name,
     builder: (data) {
-      return const _i3.LanguagePage();
+      return const _i4.LanguagePage();
     },
   );
 }
 
 /// generated route for
-/// [_i4.LessonsPage]
+/// [_i5.LessonsPage]
 class LessonsRoute extends _i10.PageRouteInfo<void> {
   const LessonsRoute({List<_i10.PageRouteInfo>? children})
     : super(LessonsRoute.name, initialChildren: children);
@@ -81,23 +97,7 @@ class LessonsRoute extends _i10.PageRouteInfo<void> {
   static _i10.PageInfo page = _i10.PageInfo(
     name,
     builder: (data) {
-      return const _i4.LessonsPage();
-    },
-  );
-}
-
-/// generated route for
-/// [_i5.LoginPage]
-class LoginRoute extends _i10.PageRouteInfo<void> {
-  const LoginRoute({List<_i10.PageRouteInfo>? children})
-    : super(LoginRoute.name, initialChildren: children);
-
-  static const String name = 'LoginRoute';
-
-  static _i10.PageInfo page = _i10.PageInfo(
-    name,
-    builder: (data) {
-      return const _i5.LoginPage();
+      return const _i5.LessonsPage();
     },
   );
 }

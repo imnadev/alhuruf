@@ -3,7 +3,7 @@ import 'package:alhuruf/common/extensions/theme_extensions.dart';
 import 'package:alhuruf/common/gen/assets.gen.dart';
 import 'package:alhuruf/common/gen/strings.dart';
 import 'package:alhuruf/common/router/app_router.gr.dart';
-import 'package:alhuruf/common/widgets/common_button.dart';
+import 'package:alhuruf/common/widgets/button.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:management/management.dart';
@@ -143,7 +143,7 @@ class HomePage extends Managed<HomeManager, HomeState, HomeEffect> {
                               },
                             ),
                             SizedBox(height: 16),
-                            CommonButton.elevated(
+                            Button.elevated(
                               text: Strings.seeAll,
                               backgroundColor: context.colors.disable,
                               textColor: context.colors.primary,

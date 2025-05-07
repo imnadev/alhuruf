@@ -2,7 +2,7 @@ import 'package:alhuruf/common/extensions/text_extensions.dart';
 import 'package:alhuruf/common/extensions/theme_extensions.dart';
 import 'package:alhuruf/common/gen/assets.gen.dart';
 import 'package:alhuruf/common/gen/strings.dart';
-import 'package:alhuruf/common/widgets/common_button.dart';
+import 'package:alhuruf/common/widgets/button.dart';
 import 'package:flutter/material.dart';
 
 class ErrorView extends StatelessWidget {
@@ -33,7 +33,7 @@ class ErrorView extends StatelessWidget {
                 .c(context.colors.headline)
                 .copyWith(textAlign: TextAlign.center),
             const SizedBox(height: 36),
-            CommonButton.elevated(onPressed: retry, text: Strings.retry),
+            Button.elevated(onPressed: retry, text: Strings.retry),
           ],
         ),
       ),

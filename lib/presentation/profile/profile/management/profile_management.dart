@@ -8,6 +8,6 @@ class ProfileState with _$ProfileState {
 }
 
 @freezed
-class ProfileEffect with _$ProfileEffect {
-  const factory ProfileEffect() = _ProfileEffect;
+sealed class ProfileEffect with _$ProfileEffect {
+  const factory ProfileEffect.auth() = Auth;
 }

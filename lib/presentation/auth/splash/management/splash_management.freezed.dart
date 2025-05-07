@@ -107,8 +107,8 @@ $SplashEffectCopyWith(SplashEffect _, $Res Function(SplashEffect) __);
 /// @nodoc
 
 
-class _Home implements SplashEffect {
-  const _Home();
+class Home implements SplashEffect {
+  const Home();
   
 
 
@@ -118,7 +118,7 @@ class _Home implements SplashEffect {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Home);
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Home);
 }
 
 
@@ -139,8 +139,8 @@ String toString() {
 /// @nodoc
 
 
-class _Login implements SplashEffect {
-  const _Login();
+class Login implements SplashEffect {
+  const Login();
   
 
 
@@ -150,7 +150,7 @@ class _Login implements SplashEffect {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Login);
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Login);
 }
 
 

@@ -9,7 +9,7 @@ class SplashState with _$SplashState {
 
 @freezed
 class SplashEffect with _$SplashEffect {
-  const factory SplashEffect.home() = _Home;
+  const factory SplashEffect.home() = Home;
 
-  const factory SplashEffect.login() = _Login;
+  const factory SplashEffect.login() = Login;
 }
