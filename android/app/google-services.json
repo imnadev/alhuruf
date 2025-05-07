@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097896663671",
+    "project_id": "al-huruf",
+    "storage_bucket": "al-huruf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097896663671:android:bb0da2feb80c407daa4472",
+        "android_client_info": {
+          "package_name": "com.alhuruf.arabic.quran.tajweed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097896663671-3fml1falb570qpsruuj8gvn89lk26j25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrKYtV60m4uqqyv8PmedRne_sCEhcz2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097896663671-3fml1falb570qpsruuj8gvn89lk26j25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
